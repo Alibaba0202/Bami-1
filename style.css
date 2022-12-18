@@ -2,4 +2,45 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+nav {
+    display: flex;
+    width: 30%;
+    gap: 40px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1098ad;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:link, :visited {
+    color: #dd1199;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover, :active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #1098ad;
 }
